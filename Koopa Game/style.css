@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: whitesmoke;
+    padding-left: 25%;
+    font-size: 100px;
+}
+img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(1);
+    transition: transform 0.3s ease;
+}
+#playerAudio {
+    width: 250px;
+    height: 90px;
+    margin-left: 40%;
+}
+#bestTime {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
